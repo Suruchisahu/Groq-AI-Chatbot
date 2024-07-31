@@ -25,7 +25,7 @@ def generate_chat_completion(system_message, user_message):
     return chat_completion.choices[0].message.content
 
 # Streamlit app layout
-st.title("Suruchi sahu")
+st.title("Explorer")
 
 # Input fields for system and user messages
 system_message = st.text_input("System Message:")
